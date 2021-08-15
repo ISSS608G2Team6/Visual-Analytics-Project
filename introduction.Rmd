@@ -1,0 +1,6 @@
+---
+title: "Crime Detection by Movement and Network Visualization for VAST2021 MC2"
+---
+
+Crime detection has always been the tough issure in the society. In the past, it is not easy to detect the suspects, to track the mpvement or even to get the truth since the limitaion of the data. But now, the good thins happen. With the help of the Internet and development of technology, we are able to get a different kinds of data from diversity aspects data is as powerful as we can imagine. 
+In the project, we obtained the GPS movement data of each car, credit card and loyalty card transaction data and car owner information of GAStech employees. As experts in visual analytics as well as students of ISSS608 Visual Analytics and Application, we will visualize and analysis these datasets to figure out the suspicious relationships and locations involved in this kidnapping by frequency analysis, movement visualization and network analysis.We aim to help policy solve the issure related to crime detection, hopefully we can understand the more widly application of data not only in security area but also many other place.

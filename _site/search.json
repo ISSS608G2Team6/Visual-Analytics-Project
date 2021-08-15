@@ -2,19 +2,93 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "title": "About this site",
+      "description": "Some additional details about the website",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-17T22:23:06+08:00"
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-08-15T17:01:08+08:00"
     },
     {
       "path": "index.html",
-      "title": "Visual Analytics Project",
+      "title": "Viz Project G2",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-06-17T22:23:07+08:00"
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-08-15T17:16:46+08:00"
+    },
+    {
+      "path": "introduction.html",
+      "title": "Crime Detection by Movement and Network Visualization for VAST2021 MC2",
+      "author": [],
+      "contents": "\nCrime detection has always been the tough issure in the society. In the past, it is not easy to detect the suspects, to track the mpvement or even to get the truth since the limitaion of the data. But now, the good thins happen. With the help of the Internet and development of technology, we are able to get a different kinds of data from diversity aspects data is as powerful as we can imagine. In the project, we obtained the GPS movement data of each car, credit card and loyalty card transaction data and car owner information of GAStech employees. As experts in visual analytics as well as students of ISSS608 Visual Analytics and Application, we will visualize and analysis these datasets to figure out the suspicious relationships and locations involved in this kidnapping by frequency analysis, movement visualization and network analysis.We aim to help policy solve the issure related to crime detection, hopefully we can understand the more widly application of data not only in security area but also many other place.\n\n\n\n",
+      "last_modified": "2021-08-15T19:25:54+08:00"
+    },
+    {
+      "path": "poster.html",
+      "title": "Poster",
+      "author": [
+        {
+          "name": "ISSS608 G2 - Miao Lu, Zhong Ping, Zhang Xinru",
+          "url": {}
+        }
+      ],
+      "date": "08-15-2021",
+      "contents": "\nThe poster can be viewed in this link.\n\n\n\n\n",
+      "last_modified": "2021-08-15T19:26:27+08:00"
+    },
+    {
+      "path": "reseach_paper.html",
+      "title": "Research Paper",
+      "author": [
+        {
+          "name": "ISSS608 G2 - Miao Lu, Zhong Ping, Zhang Xinru",
+          "url": {}
+        }
+      ],
+      "date": "08-15-2021",
+      "contents": "\nThe documentation of research paper can be downloaded in the link.\n\n\n\n\n",
+      "last_modified": "2021-08-15T19:25:31+08:00"
+    },
+    {
+      "path": "shiny.html",
+      "title": "Shiny Application",
+      "author": [
+        {
+          "name": "ISSS608 G2 - Miao Lu, Zhang Xinru, Zhong Ping",
+          "url": {}
+        }
+      ],
+      "date": "08-15-2021",
+      "contents": "\nPlease click here to explore our Shiny Application!\n\nLocation Frequency analysis page overview\n\n\n\nCar movement analysis page overview\n\n\n\nCar ownership analysis page overview\n\n\n\nNetwork page overview\n\n\n\n\n\n",
+      "last_modified": "2021-08-15T19:26:05+08:00"
+    },
+    {
+      "path": "user_guide.html",
+      "title": "Shiny Application",
+      "author": [
+        {
+          "name": "ISSS608 G2 - Miao Lu, Zhong Ping, Zhang Xinru",
+          "url": {}
+        }
+      ],
+      "date": "08-15-2021",
+      "contents": "\n1. Location Popularity dashboard\nIn this page, users can use the daily frequency bar chart to observe the frequency of each store in selected period and use the hourly frequency bubbly plot to view the time distribution of their daily frequency, in which the size of bubble represents the frequency. And this dashboard is also used to answer MC2-Q1: Identify the most popular locations, and when they are popular.\n[1.1] Select “All” in Date sidebar to view the overall location popularity and the overall hourly distribution among these two weeks.\n\n[1.2] The PLOTLY package we used allows users to select certain area on the chart and zoom into it to have a clearer view of certain stores.\n\n[2] Select certain date like “01/06/2014” in Date sidebar to view the location popularity and its hourly distribution in specific day.\n\n2. Car tracking map\nIn this page, the background is the map of Abila, we aim to tracking the path of each car over past 14 days.\n [1] Select the desired car id to look at the path, multiple car number can be picked at one time.\n\n[2] Select the day of the date from 2014-01-06 to 2014-01-14. For example, if we select 6-8, this means that the date range is from 2014-01-06 to 2014-01-08. Note that the day controller can apply to 2 graphs at the same time in the page.\n\n[3] Select the time interval in one day, this slider bar can be combined with last one to tracking the path in specific day at specific time. Note that the hour controller can apply to 2 graphs same as the day controller in the page.\n3. Parallel chart\nIn this page, there are two parallel graphs shown, the first graph aims to show the correspondence between the credit cards and loyalty cards which have the cross-used happening. The second one aims to show the matching relationship including cards information and employee information. One thing worth mentioning is that the car controller only can apply to the second graph.\n [1] Select the desired car id to look at the explicit relationships between two cards, employee name as well as car id, multiple car numbers can be picked at one time. Since the first graph has no carid information so the controller can apply to the second graph. [2] The legend on the right page is to show the number of relations happening in the data, however this is meaningless in a sense in the graph since we have already removed the duplicate data.\n4. Network\nIn this page, users can check all informal relationships we recognized.\n\n[1] Select which kind of relationship they want to check on the radio button from left side, default is all.\n[2] Select which kind of layout you want to use, default is Circle. Click “Apply Changes”.\n[3] On the middle part is the network graph. Each node is an employee of GAStech, the number of each node is the car ID of each employee assigned. The edge implies the relationship between two employees. Edges for “Party at Lars’s house’ and ‘Suspicious/midnight visit” are directed, the rest are undirected. The arrows are pointed from visitors to employees who are visited.\n[4] On the right side is the legend of network. Size implies the size of each node. Freq implies how many times activities happened. The larger the freq is, the closer the relationship is. CurrentEmploymentType implies the department each color of the node.\n\n\n\n\n",
+      "last_modified": "2021-08-15T19:25:45+08:00"
+    },
+    {
+      "path": "welcome.html",
+      "title": "Visual Analytics Project",
+      "description": "Proposal of data visualization analytics project. \n",
+      "author": [
+        {
+          "name": "ISSS608 G2 - Miao Lu, Zhong Ping, Zhang Xinru",
+          "url": {}
+        }
+      ],
+      "date": "08-15-2021",
+      "contents": "\n1. Motivation\nIn January 2014, several employees of GAStech went missing while leaders of GAStech are celebrating for company’s initial public offering. Because GAStech has not been good at environment management while producing natural gas, an organization is suspected of this disappearance. To find out the truth of this case, we should analyze GAStech’s employees’ activities to find out any suspicious clue and crime suspect.\nTo achieve this, our group used visualization techniques: maps, pie charts, line graphs and interactions to provide insights of employees’ shopping habit, relationship network and abnormal behaviors relating to disappearance.\n2. Problem& Issue\nIn the kidnapping case of GAStech company employees in Kronos, we aim to find the abnormal facts that may be related to this case by data visualization. In detail, our group plan to conduct an in-depth investigation through Mini-challenge2 by analyzing their credit card transactions, loyalty card usage and vehicle tracking data to address these issues below:\nAnalyzing credit and loyalty card data, identify the most popular locations and most popular time to find out anomalies and carried out some measures to correct them.\nVisualize the vehicle tracking data to get the vehicle trajectory and analyze those abnormal routes.\nMap the vehicle data to the analysis of credit and loyalty card data to locate the discrepancies and ownership between them.\nAnalyzing the life pattern among GASTech personnel to identify potential informal or unofficial relationships among them, adding in their email data in MC1 if necessary.\nCombined with the above analysis, dig out suspicious activities may be related to this kidnapping case and located suspicious locations kidnapping might happen.\n3. Relevant work\nWork Scope\nPrincipal\nData cleansing and preparation\nZhang Xinru\nCredit Card analysis by RFM model, Market Basket Analysis\nZhang Xinru\nLoyalty Card analysis\nZhang Xinru\nMapping of Loyalty Card to Credit Card\nZhong Ping\nSocial Analysis for GASTech personnel\nZhong Ping\nGeographic visualization of vehicle tracking\nMiao Lu\nOwnership analysis of vehicle, credit card and loyalty card\nMiao Lu\nText analysis of staff email\nMiao Lu\nSuspicious activities analysis\nZhong Ping\nApplication build\nAll members\n4.Approach & Methodology\n4.1 Visualization\nThe possible visualization methods we are possibly using the graph shown below.\nPlot\nDescription\nGeospatial map\nTo navigate how the pace change over time and the distribution of different car.\nPie chart\nTo observe categorical distribution of employees, stores.\nScatter plot\nTo show the size of sales.\nLine plot\nTo plot the sale changes over time.\nHeatmap\nTo observe the relationship between 2 variables\n4.2 Rstudio\nR studio is the main tool that we are using to achieve the interaction. The packages that we may use include:\nPackage\nDescription\nR shiny\nTo create the interactive application\ntidyverse\nData processing and Data wrangling\nleaflet\nTo create interactive map\nggplot2\nTo plot the graph\ngrid\nTo add annotation\ndplyr\nFor data manipulation\n5. Storyboard\nIn order to draw conclusive relationships and results. We propose to develop some graph in Shiny R to visualize these relationships:\n5.1 Geospatial map of cars driving\n Tab 1 aims to keep track of employees’ path over past 14 days. The features of map should include: * Interactive (car ID, time) * Able to distinguish the place. So far, we found some insights which may be useful in the future. 1.ID15 and ID16 live the same place. And they went to a place at 3AM several times. 2. ID4 and ID10 went to the company earlier than others and they liked to have a breakfast together.\n5.2 Pie chart of GAStech department\n\nTab 2 is the pie chart type of distribution, aiming to see the relationship of each employee in the working environment. This type of relationship can be combined with other graph to do some further analysis or make appropriate assumption.For example, from the graph we can see that id 4 and id 10 is from executive department, so this observation may explain why they always go to the company earlier than others.\n5.3 Scatter plot of each store\n\nThe scatter plot can be used to see if there are some abnormal purchases happened over last 14 days, the size of circle can represent the sales that day. And comparing to the size of circle each day we can find the normal sales and then get the abnormal one. In this graph, we also need to implement interaction in the future to observe specific store.\n5.4 Line chart for sales and number of purchases\n\nLine chart is a very useful graph to see the changes of sales over time. The first line chart is to show the sales changes in each store and the second one talks about the times of purchased each store occur. Combining 2 chart would be better to find out the abnormal purchase. The chart also needs to be interactive to select particular store which may be related to the suspects.\n5.5 Abnormal Mapping between Ccnum and Loyaltynum\n This dashboard combines a line chart and a density graph. The density graph showing two abnormal mapping between employee’s credit card and employee’s loyalty card, which means credit cards ending with “1310” and “4795” are sharing two loyalty cards. The line graph shows transaction history of the two suspicious credit/debit card to help further find out the relationship between owners of “1310” and “4785”.\n6. Project Timeline\n\n\n\n\n",
+      "last_modified": "2021-08-15T19:26:18+08:00"
     }
   ],
-  "collections": ["posts/posts.json"]
+  "collections": []
 }

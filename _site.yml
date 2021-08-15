@@ -1,12 +1,25 @@
-name: "Project"
-title: "Visual Analytics Project"
+name: "viz"
+title: "ISSS608-G2T6-VAST2021-MC2"
 description: |
-  Visual Analytics Project
+  Viz Project G2
 output_dir: "_site"
 navbar:
   right:
     - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
+      href: introduction.html
+    - text: "Proposal"
+      href: welcome.html
+    - text: "Research Paper"
+      href: reseach_paper.html
+    - text: "Shiny Application"
+      href: shiny.html
+    - text: "User Guide"
+      href: user_guide.html
+    - text: "Poster"
+      href: poster.html
+
+
+#  right:
+#    - text: "Home"
+#      href: index.html
 output: distill::distill_article

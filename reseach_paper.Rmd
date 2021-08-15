@@ -1,0 +1,30 @@
+---
+title: "Research Paper"
+
+  
+author:
+  - name: ISSS608 G2 - Miao Lu, Zhong Ping, Zhang Xinru
+    affiliation: School of Computing and Information Systems,</br>Singapore Management University
+    affiliation_url: https://scis.smu.edu.sg/
+date: 08-15-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+[The documentation of research paper can be downloaded in the link.](VApaper.pdf)
+
+![](paper_img/r1.jpg)
+![](paper_img/r2.jpg)
+![](paper_img/r3.jpg)
+![](paper_img/r4.jpg)
+![](paper_img/r5.jpg)
+![](paper_img/r6.jpg)

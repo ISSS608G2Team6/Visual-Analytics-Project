@@ -1,0 +1,38 @@
+---
+title: "Shiny Application"
+  
+author:
+  - name: ISSS608 G2 - Miao Lu, Zhang Xinru, Zhong Ping
+    affiliation: School of Computing and Information Systems,</br>Singapore Management University
+    affiliation_url: https://scis.smu.edu.sg/
+date: 08-15-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+[Please click here to explore our Shiny Application!](https://miaolu3345.shinyapps.io/shiny/)
+
+> Location Frequency analysis page overview
+
+![](shiny_shot1.png)
+
+> Car movement analysis page overview
+
+![](shiny_shot2.png)
+
+> Car ownership analysis page overview
+
+![](shiny_shot3.png)
+
+> Network page overview
+
+![](shiny_shot4.png)
